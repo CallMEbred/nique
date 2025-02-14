@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS';
+    font-size: larger;
+    color: white;
+}
+
+header{
+    background-color: dimgray;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu{
+    margin: 0;
+    padding: 8px;
+    background-color: rgb(77, 75, 75);
+    text-align: center;
+}
+
+.menu li{
+    display: inline;
+    
+}
+
+.button{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 60px;
+
+}
+
