@@ -33,4 +33,5 @@ header{
 footer{
     background-color: dimgray;
     text-align: center;
+    height: 100px;
 }
