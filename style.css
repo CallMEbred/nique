@@ -2,13 +2,14 @@ body{
     margin: 0;
     font-family: 'Trebuchet MS';
     font-size: larger;
-    color: white;
+    
 }
 
 header{
     background-color: dimgray;
     text-align: center;
     padding: 10px;
+    color: white;
 }
 
 .menu{
@@ -16,6 +17,7 @@ header{
     padding: 8px;
     background-color: rgb(77, 75, 75);
     text-align: center;
+    color: white;
 }
 
 .menu li{
