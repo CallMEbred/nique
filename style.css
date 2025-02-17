@@ -2,6 +2,7 @@ body{
     margin: 0;
     font-family: 'Trebuchet MS';
     font-size: larger;
+    color: black;
     
 }
 
@@ -36,4 +37,6 @@ footer{
     background-color: dimgray;
     text-align: center;
     height: 100px;
+    color: white;
+    padding-top: 20px;
 }
