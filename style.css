@@ -9,7 +9,7 @@ body{
 header{
     background-color: dimgray;
     text-align: center;
-    padding: 10px;
+    padding : 10px;
     color: white;
 }
 
@@ -23,16 +23,22 @@ header{
 
 .menu li{
     display: inline;
+    padding: 60px
     
 }
 
 .button{
     text-decoration: none;
     color: aliceblue;
-    padding: 60px;
+    padding: 8px
+    
 
 }
 
+.button:hover{
+    background-color: rgb(97, 75, 75);
+
+}
 footer{
     background-color: dimgray;
     text-align: center;
