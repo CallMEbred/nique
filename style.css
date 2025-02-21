@@ -6,6 +6,12 @@ body{
     
 }
 
+section{
+padding-top: 2%;
+padding-left: 10%;
+padding-right: 10%
+}
+
 header{
     background-color: dimgray;
     text-align: center;
