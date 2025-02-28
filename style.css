@@ -1,61 +1,118 @@
+.pacifico-regular {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 body{
     margin: 0;
-    font-family: 'Trebuchet MS';
-    font-size: larger;
-    color: black;
-    
-}
-
-section{
-padding-top: 2%;
-padding-left: 10%;
-padding-right: 10%;
+    font-family: Arial;
 }
 
 header{
-    background-color: dimgray;
-    text-align: center;
-    padding : 10px;
+    background-color: rgb(0, 47, 108);
     color: white;
+    padding: 1%;
+    text-align: center;
+    font-family: 'Pacifico';
+}
+
+nav{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: rgb(51, 74, 148);
+}
+
+.centered-menu{
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .menu{
     margin: 0;
     padding: 8px;
-    background-color: rgb(77, 75, 75);
-    color: white;
+    background-color: rgb(51, 74, 148);
 }
 
 .menu li{
     display: inline;
-    padding: 60px
-    
 }
 
 .button{
+    font-size: 120%;
+    font-style: none;
+    color: white;
+    padding: 8px;
     text-decoration: none;
-    color: aliceblue;
-    padding: 8px
-    
+}
 
+.button:link{
+    background-color: rgb(51, 74, 148);
+    color: white;
 }
 
 .button:hover{
-    background-color: rgb(97, 75, 75);
-
+    background-color: rgb(120, 110, 212);
 }
+
+section{
+    width: 50%;
+    margin: 0 auto;
+    min-height: 500px;
+}
+
+.left-image{
+    width: 30%;
+    float: right;
+    padding: 2%;
+}
+
 footer{
-    background-color: dimgray;
-    text-align: center;
-    height: 100px;
+    background-color: rgb(0, 47, 108);
     color: white;
-    padding-top: 20px;
+    padding: 1%;
+    text-align: center;
 }
-.nezh{
-    float: left;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
 
+.container{
+    background-color: rgb(232, 227, 227);
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 10px;
+    height: 240px;
 }
-/*nezh nezh skibidi fezh
+
+.column-left{
+    width: 30%;
+    background-color:rgb(116, 206, 197);
+    height: 200px;
+    padding-top: 10px;
+    text-align: center;
+    float: left;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.column-middle{
+    width: 30%;
+    background-color:rgb(116, 130, 206);
+    height: 200px;
+    padding-top: 10px;
+    text-align: center;
+    float: left;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.column-right{
+    width: 30%;
+    background-color:rgb(206, 116, 194);
+    height: 200px;
+    padding-top: 10px;
+    text-align: center;
+    float: left;
+    margin: 15px;
+    border-radius: 10px;
+}
